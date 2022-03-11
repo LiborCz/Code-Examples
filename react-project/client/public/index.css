@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eee;
+  overflow: hidden;
+  padding: 0 16px;
+  margin: 0;
+}
+
+
+.inline-error {
+  color: red;
+  font-size: 1rem;
+  font-weight: 800;
+  align-self: center;
+}
+
+/* Login / Register Page */
+
+.login .box, .register .box {
+  max-width: 25rem;
+}
+
+.login .error, .register .error {
+  text-align: center;
+  margin-bottom: 20px;  
+}
+
+
+.is-error-center {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: red;
+  display: flex;
+}
+
+.example {
+  position: absolute;
+  z-index: 1000;
+}
+
+.example input {
+  border-color: red;
+}
+
+/* General Dialog Properties */
+[data-reach-dialog-overlay] {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+[data-reach-dialog-content] {
+  margin: auto !important;
+  border-radius: 7px;
+  padding-top: 3rem !important;
+  padding-bottom: 1rem;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+
+/* Note */
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Dialog Item New */
+.dlg-item-new {
+  width: 800px !important;
+}
+
+.dlg-item-new .btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Note new */
+xform.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+xform.create-note input,
+xform.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+xform.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+x.overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0; left: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+/* Header */
+.navbar {
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;  
+}
+
+.navbar .logo {
+    font-family: "McLaren", cursive;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/* Footer */
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}

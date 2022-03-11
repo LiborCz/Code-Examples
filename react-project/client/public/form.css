@@ -1,0 +1,64 @@
+button {
+  height: 34px;
+  padding: 0 20px;
+  padding-bottom: 2px;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-icon {
+  margin-right:8px;
+  padding: 0 2px;
+
+}
+
+.space-left {
+  margin-left: 10px !important;
+}
+
+.field-label {
+  align-items: stretch;
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;  
+}
+
+.field-input {
+  border: 1px solid #dbdbdb;
+  border-left-width: 0;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;  
+}
+
+.file-label {
+  width: 100%;
+}
+
+.file-name {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.map-symb {
+  max-width: 100% !important;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.map-symb-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.grey {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}

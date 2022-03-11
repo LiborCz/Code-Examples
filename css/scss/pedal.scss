@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+.p-text{
+	position: relative;
+	font-size: 1.5em;
+	line-height: 25px;
+	top: -2px;
+	left: 0;
+	color: rgba(255,255,255,.2);
+	transition: all 1s ease-out;
+}
+
+.wrapper-pedal{
+	position: relative;
+	width:100px;
+	height:150px;
+	margin: 0 auto;
+	margin-top: 58px;
+	/* border: 1px solid silver; */
+}
+
+.pedal{
+	position: absolute;
+	height: 100px;
+	top:40px;
+	left: 0;
+	transform-origin: top left;
+	transform: rotate(-20deg);
+	transition: all 0.1s ease-out;
+	/* border: 1px solid red; */
+}
+
+.arrow {
+	position: absolute;
+	top: 30px;
+	left: 60px;
+}
+
+.arrow.fg {
+	transition: all 0.1s ease-out;
+}
+
+.arrow-bg {
+	position:absolute;
+	top: 30px;
+	left: 58px;
+	width: 40px;
+	height: 100px;
+	/* border: solid 1px blue; */
+}
+
